@@ -94,7 +94,7 @@ public class BlackJack{
              x.total=x.total+human_card3;
              System.out.println("New Card = "+human_card3_object+human_card3);  
              System.out.println("new human_total "+ x.total);
-             if (x.total<21){
+             if (x.total<=21){
                x.bet=bet(x);}
              continue;
            }
