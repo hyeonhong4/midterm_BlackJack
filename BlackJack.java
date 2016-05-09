@@ -263,7 +263,7 @@ public class BlackJack{
       System.out.println("Computer Wins");
       System.out.println(p1.name+" Loses $"+(p1.bet));
       System.out.println(p1.name+" Loses $"+(p2.bet));
-      System.out.println("computer Get $"+p1.bet+p2.bet);
+      System.out.println("computer Get $"+(p1.bet+p2.bet));
       System.out.println(p1.name+" has$"+(p1.money));
       System.out.println(p2.name+" has$"+(p2.money));
     }
