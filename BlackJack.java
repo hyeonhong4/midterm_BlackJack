@@ -217,6 +217,7 @@ public class BlackJack{
     if(p1.total<=21 && computer_total<p1.total && p2.total<p1.total){
       p1.money=p1.money+p1.bet*2;
       System.out.println(p1.name+" Wins");
+      System.out.println(p1.name+" Get $"+p1.bet*2);
       System.out.println(p1.name+" has $"+p1.money);
       System.out.println("computer Loses $"+p1.bet);
       System.out.println(p2.name+" Loses $"+p2.bet);
@@ -225,7 +226,8 @@ public class BlackJack{
     }
     else if(p2.total<=21 && computer_total<p2.total && p2.total>p1.total){
       p2.money=p2.money+p2.bet*2;
-      System.out.println(p2.name+" Wins");;
+      System.out.println(p2.name+" Wins");
+      System.out.println(p2.name+" Get $"+p2.bet*2);
       System.out.println(p2.name+" has $"+p2.money);
       System.out.println("computer Loses $"+p2.bet);
       System.out.println(p1.name+" Loses $"+(p1.bet));
@@ -236,6 +238,7 @@ public class BlackJack{
       if(p1.card>p2.card){ 
         p1.money=p1.money+p1.bet*2;
         System.out.println(p1.name+" Wins");
+        System.out.println(p1.name+" Get $"+p1.bet*2);
         System.out.println(p1.name+" has $"+p1.money);
         System.out.println("computer Loses $"+p1.bet);
         System.out.println(p2.name+" Loses $"+p2.bet);
@@ -244,7 +247,8 @@ public class BlackJack{
         }
       if(p2.card>p1.card){
         p2.money=p2.money+p2.bet*2;
-        System.out.println(p2.name+" Wins");;
+        System.out.println(p2.name+" Wins");
+        System.out.println(p2.name+" Get $"+p2.bet*2);
         System.out.println(p2.name+" has $"+p2.money);
         System.out.println("computer Loses $"+p2.bet);
         System.out.println(p1.name+" Loses $"+(p1.bet));
